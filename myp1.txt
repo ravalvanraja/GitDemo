@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>સહાયતા - Handicap Support</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; background-color: #f4f4f4; }
+        header { background: #0056b3; color: white; padding: 20px; text-align: center; }
+        nav { background: #333; color: white; padding: 10px; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        .container { padding: 20px; max-width: 800px; margin: auto; background: white; }
+        .btn { display: inline-block; background: #0056b3; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 10px; }
+        footer { text-align: center; padding: 20px; background: #333; color: white; position: fixed; width: 100%; bottom: 0; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>દિવ્યાંગ સહાયતા કેન્દ્ર</h1>
+</header>
+
+<nav>
+    <a href="#">હોમ</a>
+    <a href="#">સેવાઓ</a>
+    <a href="#">સંપર્ક</a>
+</nav>
+
+<div class="container">
+    <h2>અમારા વિશે</h2>
+    <p>આ વેબસાઇટ દિવ્યાંગ મિત્રોને મદદરૂપ થવા માટે બનાવવામાં આવી છે. અહીં તમને સરકારી યોજનાઓ અને સાધનોની માહિતી મળશે.</p>
+    
+    <h3>તમારી વિગત મોકલો</h3>
+    <form action="/submit" method="POST">
+        <label>નામ:</label><br>
+        <input type="text" name="name" required style="width: 100%; padding: 8px; margin: 10px 0;"><br>
+        <label>સંદેશો:</label><br>
+        <textarea name="message" style="width: 100%; padding: 8px; margin: 10px 0;"></textarea><br>
+        <button type="submit" class="btn">સબમિટ કરો</button>
+    </form>
+</div>
+
+<footer>
+    <p>&copy; 2026 સહાયતા પોર્ટલ</p>
+</footer>
+
+</body>
+</html>
